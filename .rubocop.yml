@@ -1,0 +1,13 @@
+AllCops:
+  EnabledByDefault: true
+  Exclude:
+    - test/**/*
+    - config/**/*
+    - db/**/*
+    - spec/**/*
+    - vendor/**/*
+    - scripts.rb
+    - node_modules/**/*
+    - bin/*
+    - config.ru
+    - Rakefile
